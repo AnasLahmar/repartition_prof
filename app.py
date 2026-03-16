@@ -6,7 +6,7 @@ from collections import defaultdict
 
 # ── Page config ────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="توزيع الأساتذة",
+    page_title=" Classix توزيع الأساتذة",
     page_icon="🏫",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -386,7 +386,7 @@ def get_eligible_niveaux(prof_id, matiere):
 # SIDEBAR
 # ══════════════════════════════════════════════════════════════════════════════
 with st.sidebar:
-    st.markdown("## 🏫 إدارة الأساتذة")
+    st.markdown("## 🎓 CLASSIX : ابن خلدون التأهيلية")
     st.markdown("---")
     page = st.radio("", [
         "⚙️ الإعدادات",
